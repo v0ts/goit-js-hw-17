@@ -1,0 +1,2 @@
+let e=1;const t=document.querySelector(".list"),c=document.querySelector(".button"),a=e=>{e.hits.forEach(e=>{let c=document.createElement("li"),a=document.createElement("img");c.classList.add("item"),a.classList.add("image"),a.src=e.webformatURL,t.append(c),c.append(a)})};c.addEventListener("click",t=>{n(e+=1)});const n=e=>fetch(`https://pixabay.com/api/?key=47745084-1e5dd425147376e08b27d9920&per_page=4&page=${e}`).then(e=>e.json()).then(e=>a(e));
+//# sourceMappingURL=index.380fec69.js.map
